@@ -44,10 +44,16 @@ textarea{
   text-overflow: '';
 }
 </style>
+
 </head>
+<script>
+    function printTable() {
+        window.print();
+    }
+</script>
 <body>
 
-<h1>Cooking Table</h1>
+<h1 onclick="printTable()">Cooking Table</h1>
 
 <table id="customers">
   <tr>
